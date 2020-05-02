@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 namespace FlappyBird
 {
-    class Tube
+   public class Tube
     {
         public int x;
         public int y;
@@ -26,5 +26,7 @@ namespace FlappyBird
                 tubeIMG.RotateFlip(RotateFlipType.Rotate180FlipX);
             }
         }
+
+
     }
 }

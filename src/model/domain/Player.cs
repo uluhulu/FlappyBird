@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 namespace FlappyBird
 {
-    class Player
+    class Bird
     {
         public float x;
         public float y;
@@ -16,7 +16,7 @@ namespace FlappyBird
         public bool isAlive;
         public int score;
 
-        public Player (int x, int y)
+        public Bird(int x, int y)
         {
             birdIMG = new Bitmap("C:\\Users\\ульяна\\Source\\Repos\\FlappyBird\\FlappyBird\\images\\flappybird.jpg");
             this.x = x;
