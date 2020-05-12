@@ -16,10 +16,10 @@ namespace FlappyBird
 
         public Tube(int x, int y, bool isRotated = false)
         {
-            tubeIMG = new Bitmap("C:\\Users\\ульяна\\Source\\Repos\\FlappyBird\\FlappyBird\\images\\tube.jpg");
+            tubeIMG = new Bitmap("C:\\Users\\ульяна\\Source\\Repos\\FlappyBird\\FlappyBird\\images\\tube.png");
             this.x = x;
             this.y = y;
-            widht = 50;
+            widht = 90;
             height = 250;
             if (isRotated)
             {
